@@ -6,15 +6,15 @@
 
 <eventList name="STORE_REBELSIDE_SEARCH">
 	<event>
-		<text>You find a single store that responds to your hails: "Don't open any wide band channels. We'll sell to you but we don't want to draw attention to ourselves."</text>
+		<text>You find a single store that responds to your hails: "Don't open any wide band channels. We'll sell to you, but we don't want to draw attention to ourselves."</text>
 		<store/>
 	</event>
 	<event>
-		<text>Your search for a friendly marketplace yields no results but after a time a small shuttle approaches. They release some supplies in your direction with the message, "We are not all friends of the Rebel fleet. Stay strong."</text>
+		<text>Your search for a friendly marketplace yields no results, but after a time, a small shuttle approaches. They release some supplies in your direction, along with a message: "We are not all friends of the Rebel fleet. Stay strong."</text>
 		<autoReward level="RANDOM">standard</autoReward>
 	</event>
 	<event>
-		<text>You apparently spoke to the wrong person in your search for a store. Warnings go off and you detect an automated Rebel ship moving in to attack.</text>
+		<text>You apparently spoke to the wrong person in your search for a store. Warnings go off, and you detect an automated Rebel ship moving in to attack.</text>
 		<ship load="REBEL_AUTO" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -62,7 +62,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You apparently spoke to the wrong person in your search for a store. Warnings go off and you detect an automated Rebel ship moving in to attack.</text>
+		<text>You apparently spoke to the wrong person in your search for a store. Warnings go off, and you detect an automated Rebel ship moving in to attack.</text>
 		<ship load="REBEL_AUTO" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -266,7 +266,7 @@
 	<choice req="hacking" lvl="1">
 		<text>(Simple Hacking) Confuse the Anti-Ship Battery's targets.</text>
 		<event>
-			<text>You spot a weakness in the targeting satellites. Your crew is able to launch a hacking drone to confuse the Anti-Ship Battery's targeting matrix. It should also fire on the Rebel ship now.</text>
+			<text>You spot a weakness in the targeting satellites. Your crew is able to launch a hacking drone to confuse the Anti-Ship Battery's targeting matrix. It should also sometimes fire on the Rebel ship now.</text>
 			<environment type="PDS" target="all"/>
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
@@ -365,8 +365,8 @@
 	</choice>
 </event>
 <textList name="REBEL_PDS_TEXT">
-	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">You're shocked to discover a Rebel forward base on this planet. A patrol ship moves in to intercept and sensors indicate an Anti-Ship Battery is about to fire. We've got to get out of here!</text>
-	<text back="BG_WARNING_ASB_CIVILIAN" planet="NONE">You're shocked to discover a Rebel forward base on this planet. A patrol ship moves in to intercept and sensors indicate an Anti-Ship Battery is about to fire. We've got to get out of here!</text>
+	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">You're shocked to discover a Rebel forward base on this planet. A patrol ship moves in to intercept, and sensors indicate an Anti-Ship Battery is about to fire. Time to get out of here!</text>
+	<text back="BG_WARNING_ASB_CIVILIAN" planet="NONE">You're shocked to discover a Rebel forward base on this planet. A patrol ship moves in to intercept, and sensors indicate an Anti-Ship Battery is about to fire. Time to get out of here!</text>
 </textList>
 
 
@@ -523,8 +523,8 @@
 	</choice>
 </event>
 <textList name="REBEL_AUTO_PDS_TEXT">
-	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">As soon as you arrive multiple warnings go off. A hostile automated ship is detected and an Anti-Ship Battery begins firing. This doesn't look good!</text>
-	<text back="BG_WARNING_ASB_CIVILIAN" planet="NONE">As soon as you arrive multiple warnings go off. A hostile automated ship is detected and an Anti-Ship Battery begins firing. This doesn't look good!</text>
+	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">Multiple warnings ring out as soon as you arrive. A hostile automated ship is detected, and an Anti-Ship Battery begins firing. This doesn't look good!</text>
+	<text back="BG_WARNING_ASB_CIVILIAN" planet="NONE">Multiple warnings ring out as soon as you arrive. A hostile automated ship is detected, and an Anti-Ship Battery begins firing. This doesn't look good!</text>
 </textList>
 
 
