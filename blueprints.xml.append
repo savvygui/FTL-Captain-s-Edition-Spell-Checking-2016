@@ -6785,8 +6785,8 @@
 	<title>Flak Gun Mark I</title>
 	<tip>tip_flak</tip>
 	<short>Flak I</short>
-	<desc>Fires a small load of debris across a random area doing up to 2 damage. Good at taking down shields but hard to aim.</desc>
-	<tooltip>Fires a small blast of debris across a random area doing up to 2 damage.</tooltip>
+	<desc>Fires a small burst of debris across a random area, doing up to 2 damage. Good at taking down shields but hard to aim.</desc>
+	<tooltip>Fires a small burst of debris across a random area, doing up to 2 damage.</tooltip>
 	<radius>40</radius>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -6831,8 +6831,8 @@
 	<title>Scatter Laser Flak Gun</title>
 	<tip>tip_flak</tip>
 	<short>Scatter Flak</short>
-	<desc>Blasts scatter laser pellets across a wide area doing up to 5 damage. Excellent at taking down shields but hard to aim and can only damage ships' hull.</desc>
-	<tooltip>Fires scatter laser projectiles across a random area doing up to 5 damage.</tooltip>
+	<desc>Blasts scatter laser pellets across a wide area, doing up to 5 damage. Excellent at taking down shields but hard to aim and can only damage ship's hull.</desc>
+	<tooltip>Fires scatter laser projectiles across a random area, doing up to 5 damage.</tooltip>
 	<radius>80</radius>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -6880,8 +6880,8 @@
 	<title>Missile Flak</title>
 	<tip>tip_flak</tip>
 	<short>Missile Flak</short>
-	<desc>Fires swarms of missiles across a very wide area doing up to 6 damage. Very hard to aim and therefore ineffective against smaller ships.</desc>
-	<tooltip>Fires missiles swarms across a random area doing up to 6 damage. Pierces all shields.</tooltip>
+	<desc>Fires swarms of missiles across a very wide area, doing up to 6 damage. Very hard to aim and therefore ineffective against smaller ships.</desc>
+	<tooltip>Fires missile swarms across a random area, doing up to 6 damage. Pierces all shields; evades Defense I drones.</tooltip>
 	<drone_targetable>2</drone_targetable>
 	<radius>100</radius>
 	<damage>1</damage>
@@ -6932,8 +6932,8 @@
 	<title>Missile Flak</title>
 	<tip>tip_flak</tip>
 	<short>Missile Flak</short>
-	<desc>Releases swarms of missiles across a very wide area doing up to 8 damage. Very hard to aim therefore ineffective against small ships.</desc>
-	<tooltip>Fires missiles swarms across a random area doing up to 8 damage. Pierces all shields; evades Defense I drones.</tooltip>
+	<desc>Releases swarms of missiles across a very wide area, doing up to 8 damage. Very hard to aim therefore ineffective against small ships.</desc>
+	<tooltip>Fires missile swarms across a random area, doing up to 8 damage. Pierces all shields; evades Defense I drones.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>120</radius>
 	<damage>1</damage>
@@ -7251,7 +7251,7 @@
 	<title>Adaptive Focus Beam Mark I</title>
 	<short>Adaptive I</short>
 	<tooltip>Focused beam weapon; deals 1 damage to one room; damage increases the more it fires.</tooltip>
-	<desc>Newly developed weapon system that adjusts it's beam pattern to enemy shields and gains 0.25 damage each time it fires up to a maximum of 2.</desc>
+	<desc>Newly developed weapon system that adjusts its beam pattern to enemy shields and gains 0.25 damage each time it fires, up to a maximum of 2.</desc>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -7282,7 +7282,7 @@
 	<tip>ce_tip_beam_adaptive</tip>
 	<title>Adaptive Focus Beam Mark II</title>
 	<short>Adaptive II</short>
-	<desc>Advanced weapon system that adjusts its beam pattern to enemy shields. Gains 0.5 damage each time it fires up to a maximum of 3.</desc>
+	<desc>Advanced weapon system that adjusts its beam pattern to enemy shields. Gains 0.5 damage each time it fires, up to a maximum of 3.</desc>
 	<tooltip>Focused beam weapon; deals 1 damage to one room with a low breach chance; damage increases the more it fires.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
@@ -7314,7 +7314,7 @@
 	<tip>ce_tip_beam_adaptive</tip>
 	<title>Adaptive Focus Beam Mark III</title>
 	<short>Adaptive III</short>
-	<desc>This highly advanced weapon adjusts its beam pattern to enemy shields. It gains 1 damage each time it fires up to a maximum of 4.</desc>
+	<desc>This highly advanced weapon adjusts its beam pattern to enemy shields. It gains 1 damage each time it fires, up to a maximum of 4.</desc>
 	<tooltip>Focused beam weapon; deals 1 damage per room; pierces one shield; damage increases the more it fires.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
@@ -7504,8 +7504,8 @@
 	<title>Charge Missiles Mark I</title>
 	<tip>tip_charge</tip>
 	<short>Charge M. I</short>
-	<desc>If given time to prepare, the charge launcher can replicate a secondary warhead for immediate follow-up strikes.</desc>
-	<tooltip>Charges up to 2 shield-piercing missiles. However it always uses only one missile resource.</tooltip>
+	<desc>If given time to prepare, this charge launcher can replicate a secondary warhead for immediate follow-up strikes.</desc>
+	<tooltip>Charges up to 2 shield-piercing missiles for the price of one.</tooltip>
 	<radius>34</radius>
 	<missiles>1</missiles>
 	<damage>1</damage>
@@ -9607,9 +9607,9 @@
 	<weaponArt>bomblauncher_ion</weaponArt> 
 </weaponBlueprint>
 
-<!-- END OF BA AND VANILA ENEMY WEAPON BLUEPRINTS -->
+<!-- END OF BA AND VANILLA ENEMY WEAPON BLUEPRINTS -->
 
-<!-- DE AND VANILA DRONE WEAPON BLUEPRINTS -->
+<!-- DE AND VANILLA DRONE WEAPON BLUEPRINTS -->
 
 
 <weaponBlueprint name="DE_DRONE_LASER_HEAVY_ENEMY">
@@ -10112,7 +10112,7 @@
 </droneBlueprint>
 
 
-<!--  END OF BA AND VANILA ENEMY WEAPON BLUEPRINTS -->
+<!--  END OF BA AND VANILLA ENEMY WEAPON BLUEPRINTS -->
 
 <!--  DE Weapon BLUEPRINTS -->
 
@@ -11225,8 +11225,8 @@
 	<tip>tip_combat</tip>
 	<title>Light Anti-Crew Missile Drone</title>
 	<short>Light M.</short>
-	<desc>Slow drone that damages enemy crew and systems with guided micro missiles. Its usage can be considered a war-crime under interstellar law, but nobody cares.</desc>
-<!-- Pierces hull but cannot damage ships structural integrity. -->
+	<desc>Slow drone that damages enemy crew and systems with guided micro-missiles. Its usage can be considered a war crime under interstellar law, but nobody cares.</desc>
+<!-- Pierces hull but cannot damage ship's structural integrity. -->
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -11328,7 +11328,7 @@
 	<tip>tip_combat</tip>
 	<title>Minelayer Drone Mark I</title>
 	<short>Minelayer I</short>
-	<desc>Basic minelayer drone that continually drops slow moving anti-hull mines around an enemy ship.</desc>
+	<desc>Basic minelayer drone that continually drops slow-moving anti-hull mines around an enemy ship.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -11345,7 +11345,7 @@
 	<tip>tip_combat</tip>
 	<title>Minelayer Drone Mark II</title>
 	<short>Minelayer II</short>
-	<desc>Slow minelayer drone. Continually drops mines that home in on the enemy ship and deal heavy damage to hull.</desc>
+	<desc>Slow minelayer drone. Continually drops mines that home in on the enemy ship and deal heavy hull damage.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown> 
 	<dodge>0</dodge>
@@ -11397,7 +11397,7 @@
 	<tip>tip_combat</tip>
 	<title>Anti-Ship Focus Beam Drone</title>
 	<short>Focus Beam</short>
-	<desc>Powerful drone that pierces shield with its focus beam.</desc>
+	<desc>Powerful drone that pierces shields with its focus beam.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -11482,7 +11482,7 @@
 	<tip>tip_combat</tip>
 	<title>Anti-Ship Ion Drone Mark I</title>
 	<short>Ion I</short>
-	<desc>Slow-reloading drone that continuously attacks the enemy ship with ion blasts.</desc>
+	<desc>Slow-loading drone that continuously attacks the enemy ship with ion blasts.</desc>
 	<power>1</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>1</dodge>
@@ -11662,7 +11662,7 @@
 	<level>1</level>
 	<title>Light Defense Drone Mk I</title>
 	<short>L.Defense I</short>
-	<desc>Slow-reloading defense drone that shoots down incoming missiles, mines and asteroids with high-velocity light lasers. Reloads in 6 seconds.</desc>
+	<desc>Slow-loading defense drone that shoots down incoming missiles, mines and asteroids with high-velocity light lasers. Reloads in 6 seconds.</desc>
 	<power>1</power>
 	<cooldown>6000</cooldown> <!-- Shooting cooldown for shooting at asteroids/missiles, in ms -->
 	<dodge>2</dodge>
@@ -11680,7 +11680,7 @@
 	<level>1</level>
 	<title>Light Defense Drone Mk II</title>
 	<short>L.Defense II</short>
-	<desc>Fast defense drone that reliably shoots down incoming missiles, mines, and asteroids with high-velocity light lasers. Reloads in 0.6 second.</desc>
+	<desc>Fast defense drone that reliably shoots down incoming missiles, mines and asteroids with high-velocity light lasers. Reloads in 0.6 seconds.</desc>
 	<power>2</power>
 	<cooldown>600</cooldown> <!-- Shooting cooldown for shooting at asteroids/missiles, in ms -->
 	<dodge>1</dodge>
@@ -11698,7 +11698,7 @@
 	<level>1</level>
 	<title>Burst Scatter Defense Drone</title>
 	<short>Sc. Defense</short>
-	<desc>Quick firing drone that shoots down incoming missiles, mines, and asteroids with medium-velocity scatter salvos. Reloads in 0.3 seconds.</desc>
+	<desc>Quick-firing drone that shoots down incoming missiles, mines and asteroids with medium-velocity scatter salvos. Reloads in 0.3 seconds.</desc>
 	<power>2</power>
 	<cooldown>300</cooldown>
 	<dodge>1</dodge>
@@ -11735,7 +11735,7 @@
 	<level>2</level>
 	<title>Heavy Defense Drone Mark I</title>
 	<short>H. Defense I</short>
-	<desc>Slow-reloading defense drone that can shoot down all incoming projectiles. Reloads in 9 seconds.</desc>
+	<desc>Slow-loading defense drone that can shoot down all incoming projectiles. Reloads in 9 seconds.</desc>
 	<power>1</power>
 	<cooldown>9000</cooldown> 
 	<dodge>0</dodge>
@@ -11771,7 +11771,7 @@
 	<level>1</level>
 	<title>Ion Defense Drone</title>
 	<short>Ion Defense</short>
-	<desc>Designated minesweeper drone that detonates incoming mines with slow moving ion blasts. Unable to hit other projectiles effectively. Reloads in 0.75 seconds.</desc>
+	<desc>Designated minesweeper drone that detonates incoming mines with slow-moving ion blasts. Unable to hit other projectiles effectively. Reloads in 0.75 seconds.</desc>
 	<power>1</power>
 	<cooldown>750</cooldown>
 	<dodge>0</dodge>
@@ -11790,7 +11790,7 @@
 	<level>1</level>
 	<title>Ion Defense Drone</title>
 	<short>Ion Defense</short>
-	<desc>Designated minesweeper drone that detonates incoming mines with slow moving ion blasts. Unable to hit other projectiles effectively. Reloads in 1.5 seconds.</desc>
+	<desc>Designated minesweeper drone that detonates incoming mines with slow-moving ion blasts. Unable to hit other projectiles effectively. Reloads in 1.5 seconds.</desc>
 	<power>1</power>
 	<cooldown>1500</cooldown>
 	<dodge>0</dodge>
@@ -11821,13 +11821,13 @@
 	<rarity>5</rarity>
 </droneBlueprint>
 
-<!-- these exist to even out probabilityes, just like the old laser. could use double entries but this adds more variety as well -->
+<!-- these exist to even out probabilities, just like the old laser. could use double entries but this adds more variety as well -->
 
 <droneBlueprint name="DE_REPAIR_2">
 	<type>REPAIR</type>
 	<tip>tip_crew</tip>
 	<title>Repair Drone</title>
-	<short>Sys Repair</short>
+	<short>Sys Rep.</short>
 	<desc>Will seek out damaged systems and repair them automatically.</desc>
 	<power>1</power>
 	<cost>20</cost>
@@ -11839,8 +11839,8 @@
 <droneBlueprint name="DE_REPAIR_3">
 	<type>REPAIR</type>
 	<tip>tip_crew</tip>
-	<title>Leaking System Repair Drone</title>
-	<short>Sys Repair</short>
+	<title>Leaky System Repair Drone</title>
+	<short>Sys Rep.</short>
 	<desc>Will seek out damaged systems and repair them automatically. Leaks power and therefore needs more energy from the ship's generator.</desc>
 	<power>2</power>
 	<cost>15</cost>
@@ -11867,7 +11867,7 @@
 	<locked>1</locked>
 	<title>Seasoned A.P. Drone</title>
 	<short>Anti-Pers.</short>
-	<desc>Will seek out and attempt to destroy any intruders on-board your ship. Has already terminated dozens of individuals.</desc>
+	<desc>Will seek out and attempt to destroy any intruders aboard your ship. Has already terminated dozens of individuals.</desc>
 	<power>2</power>
 	<cost>35</cost>
 	<bp>3</bp>
@@ -11880,7 +11880,7 @@
 	<locked>1</locked>
 	<title>Faulty A.P. Drone</title>
 	<short>Anti-Pers.</short>
-	<desc>Will seek out and attempt to destroy any intruders on-board your ship. Leaks power and therefore needs more energy from the ship's generator.</desc>
+	<desc>Will seek out and attempt to destroy any intruders aboard your ship. Leaks power and therefore needs more energy from the ship's generator.</desc>
 	<power>3</power>
 	<cost>30</cost>
 	<bp>3</bp>
@@ -11893,7 +11893,7 @@
 	<tip>tip_crew</tip>
 	<title>Anti-Personnel Drone</title>
 	<short>Anti-Pers.</short>
-	<desc>Will seek out and attempt to destroy any intruders on-board your ship.</desc>
+	<desc>Will seek out and attempt to destroy any intruders aboard your ship.</desc>
 	<power>2</power>
 	<cost>35</cost> <!--was 60-->
 	<bp>3</bp>
